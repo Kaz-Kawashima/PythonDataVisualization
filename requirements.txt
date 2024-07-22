@@ -1,0 +1,14 @@
+pandas
+polars
+seaborn
+altair
+plotly
+plotnine
+hvplot
+jupyterlab
+matplotlib
+holoviews
+bokeh
+pyarrow
+scikit-learn
+
