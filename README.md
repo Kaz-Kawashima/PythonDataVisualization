@@ -20,6 +20,19 @@ A Comparison of Python Data Visualization Libraries
 
 データフレームのライブラリとして `Pandas` と `Polars` を試していますが、メジャーなデータ可視化ライブラリはどちらにも対応しているケースが多いようです。
 
+## 動的グラフ
+
+下記のライブラリは javascript を利用して動的グラフを生成します。github上では実行結果が確認できないので、html ファイルを確認してみて下さい。一部のライブラリはオフラインの html 出力もうまく行かないので（なんらかのおまじないが必要）その場合は jupyter notebook を実行してみて下さい。
+
+- 高水準作図ライブラリ
+  - `plotly express`
+  - `altair`
+  - `HvPlot`
+- 低水準作図ライブラリ
+  - `plotly`
+  - `bokeh`
+  - `holoview`
+
 ## Line Plot
 
 厚労省の COVID-19 感染者数データをもとに、日別の新規感染者数を折れ線グラフを描画してみます
